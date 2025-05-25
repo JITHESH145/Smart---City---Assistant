@@ -1,0 +1,48 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.sqlite3
+*.db
+
+# ChromaDB persistent storage directory
+chroma_city_knowledge_db/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit specific (if any, usually covered by Python general)
+# .streamlit/ (usually contains secrets.toml, which should be ignored if used)
+
+# If you use Jupyter notebooks and don't want to commit checkpoints
+.ipynb_checkpoints/
+
+# Example for build artifacts if you had any (not typical for this project)
+# build/
+# dist/
+# *.egg-info/ 
